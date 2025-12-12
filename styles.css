@@ -1,0 +1,153 @@
+#title{
+    background-color: lightsteelblue;
+}
+
+.container-fluid{
+   padding: 5% 8%;
+}
+
+h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p{
+    color:gray;
+}
+
+.navbar{
+    padding: 0 0 4rem;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.3rem;
+}
+
+.download-button{
+    margin: 4% 3% 5% 0;
+}
+
+.title-image{
+    width: 55%;
+    transform: rotate(15deg);
+    position: absolute;
+}
+
+
+#features{
+    padding: 5% 8%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: rgb(3, 96, 211);
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: lightsteelblue;
+}
+
+#testimonials{
+    padding: 5% 8%;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+.carousel-item{
+    padding: 5% 8%;
+}
+
+.testimonials-image{
+    width: 8%;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#press{
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+.press-logo{
+    width: 8%;
+    margin: 10px 20px 50px;
+}
+
+#pricing{
+    padding: 90px;
+    text-align: center;
+}
+
+.pricing-header{
+    color: black;
+}
+
+.pricing-column{
+    padding: 4% 2%;
+}
+
+#cta{
+    background-color: lightsteelblue;
+    color: black;
+    padding: 5% 8% ;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family:'Montserrat';
+    font-weight:bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 5% 8%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
